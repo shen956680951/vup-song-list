@@ -22,7 +22,7 @@ export default function BiliPlayerModal({
             scrolling="no"
             border="0"
             frameBorder="no"
-            framespacing="0"
+            //frameSpacing="0"
             allowFullScreen={true}
           >
             {" "}

@@ -231,7 +231,7 @@ export default function Home() {
                         <th></th>
                         <th>歌手</th>
                         <th>语言</th>
-                        <th>备注</th>
+                        <th>类型</th>
                       </tr>
                     </thead>
                     <tbody className="songList">
