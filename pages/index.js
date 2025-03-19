@@ -229,17 +229,18 @@ export default function Home() {
                         <th></th>
                         <th>歌名</th>
                         <th></th>
-                        <th>歌手</th>
                         <th>语言</th>
                         <th>类型</th>
+                        <th>求打赏</th>
                       </tr>
                     </thead>
+
                     <tbody className="songList">
-                      <SongDetail
+                    <SongDetail
                         filteredSongList={filteredSongList}
                         handleClickToCopy={handleClickToCopy}
                         showBiliPlayer={showBiliPlayer}
-                      />
+                    />
                     </tbody>
                   </Table>
                 </Container>
@@ -277,10 +278,16 @@ export default function Home() {
 
       <Offcanvas show={showIntro} onHide={handleCloseIntro}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>{config.Name}的自我介绍</Offcanvas.Title>
+          <Offcanvas.Title>欢迎来到{config.Name}的直播间</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <BannerMobile />
+          <div>
+            <p></p>
+            <p>我是一条鱼！</p>
+            <p>我是一条鱼！！</p>
+            <p>我是一条鱼！！！</p>
+          </div>
         </Offcanvas.Body>
       </Offcanvas>
 

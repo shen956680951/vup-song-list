@@ -329,3 +329,10 @@
   right: 0.25rem;
   z-index: 1;
 }
+
+.songImage {
+  width: 35px;  /* 你可以调整成更小的值，比如 20px */
+  height: 35px;
+  display: block;
+  margin: 5px auto 0 10px;  /* 确保图片在单元格内居中 */
+}

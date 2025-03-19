@@ -9,7 +9,7 @@ let config = {
 
     Cursor: false,
 
-    LanguageCategories: ["国语", "粤语"],
+    LanguageCategories: ["国语", "粤语", "英语嘿嘿我不会"],
     RemarkCategories: ["流行", "古风"],
 
     BannerTitle: "祈羽家的饭",
